@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function RedBorder(){
+            var div=document.querySelector(".search-bar");
+            div.style.border="1px solid gray"
+           
+        }
+        function WhiteBorder(){
+            var div=document.querySelector(".search-bar");
+            div.style.border="1px solid white"
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <div class="container-fluid">
+                <div class="navbar-brand">
+                    <img src="public/img/logo.svg" alt="">
+                   </div>
+                <button class="navbar-toggler"data-bs-target="#nav"data-bs-toggle="collapse"><span class="navbar-toggler-icon"></span></button>
+               <div class="navbar-collapse collapse"id="nav">
+                <ul class="navbar-nav m-auto ">
+                    <li class="nav-item"><a href="#"class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#"class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#"class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="#"class="nav-link">Docs</a></li>
+                </ul>
+                <div class="icon ">
+                    <span class="bi bi-search"></span>
+                    <span class="bi bi-person-fill"></span>
+                    <span class="bi bi-heart-fill"></span>
+                </div>      
+               </div>   
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="part-1">
+            <div class="left-img">
+                <div><h2>Cotton Cardigans</h1></div>
+                <div>
+                    <button class="btn btn-outline-light">Shop Now</button>
+                </div>
+            </div>
+            <div class="right-img">
+                <div><h2>Fancy Jewelery</h1></div>
+                    <div>
+                        <button class="btn btn-outline-light">Shop Now</button>
+                    </div>
+            </div>
+        </div>
+        <div class="part-2">
+            <div>
+                <div class="casual-text mt-4">
+                    <div>SHOP NEW LOOK</div>
+                    <h1>Black Casual Look</h1>
+                </div>
+                <div class="casual-img">
+                    <div>
+                        <img src="public/img/b-jaket.jpg" alt="">
+                    </div>
+                    <div class="casual-img-grid">
+                        <div class="blazer">
+                            <div>
+                                <b> Blazer</b><br>
+                                <b>$98.00</b>
+                            </div>
+                        </div>
+                        <div class="t-shirt">
+                            <div>
+                                <b> T-shirt</b><br>
+                                <b>$38.00</b>
+                            </div>
+                        </div>
+                        <div class="jwel">
+                            <div>
+                                <b>Gold Earingg</b><br>
+                                <b>$260.00</b>
+                            </div>
+                        </div>
+                        <div class="sunglass">
+                           <div>
+                            <b>Sunglass</b><br>
+                            <b>$18.00</b>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-more">
+                    <a href="">View More Look</a>
+                </div>
+            </div>
+        </div>
+        <div class="part-3">
+            <div>
+                <span>Diamond Jewelary</span>
+                <h3>Earrings & Rings</h3>
+                <a href="#">Shop Now <span class="bi bi-arrow-right"></span></a>
+            </div>
+        </div>
+        <div class="part-4">
+            <div>
+                <div class="trending-text">
+                    <div>
+                        <div>SHOP THE LOOK</div>
+                        <h1>Tranding Look</h1>
+                    </div>
+                    <div>
+                        <a href="#">View Look</a>
+                    </div>
+                </div>
+                <div class="trending">
+                    <div class="women-kurta">
+                        <div>
+                            <b>Look Name</b><br>
+                            <b>$120.00</b>
+                        </div>
+                    </div>
+                    <div class="men-tshirt">
+                        <div>
+                            <b>Men T-Shirt</b><br>
+                            <b>$60.00</b>
+                        </div>
+                    </div>
+                    <div class="women-top">
+                        <div>
+                            <b>Look Name</b><br>
+                            <b>$110.00</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+            <div>
+                <div class="footer-heading">Company</div>
+                <a href="#">Our story</a><br>
+                <a href="#">Careers</a><br>
+                <a href="">Press</a><br>
+                <a href="">Contact</a><br>
+            </div>
+            <div>
+                <div class="footer-heading">News</div>
+                <a href="#">Shipping </a><br>
+                <a href="#">Return</a><br>
+                <a href="">Payment</a><br>
+                <a href="">FAQ</a><br>
+            </div>
+            <div>
+                <div class="footer-heading">SUBSCRIBE TO NEWSLETTER</div>
+                <div class="search-bar">
+                    <input type="text"onfocus="RedBorder()" onblur="WhiteBorder()">
+                    <button>Subscribe</button>
+                </div>
+                <div class="icon">
+                    <span class="bi bi-facebook"></span>
+                    <span class="bi bi-instagram"></span>
+                    <span class="bi bi-twitter"></span>
+                    <span class="bi bi-pinterest"></span>
+                </div>
+            </div>
+            <div>
+                <div class="footer-heading">REGION & CURRENCY</div>
+                <div>
+                    <select class='form-select'style="background-color:transparent;color:white;">
+                        <option value="">United State</option>
+                        <option value="">India</option>
+                    </select><br>
+                    <select class='form-select'style="background-color:transparent;color:white;">
+                        <option value="">Rupees</option>
+                        <option value="">Dollor</option>
+                    </select>
+                </div>
+            </div>
+    </footer>
+    <div class="copy">
+        <p>Copyright © Mohd Darain . All rights reserved.</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

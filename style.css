@@ -1,0 +1,329 @@
+.navbar-nav a{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+.navbar .icon{
+    font-size: 20px;
+    color: black;
+    font-weight:bold;
+    
+}
+.part-1{
+    display: flex;
+    flex-direction: row;
+}
+.left-img{
+    background-size: cover;
+    background-image:url(public/img/sweter.jpg);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.right-img{
+    background-size: cover;
+    background-image:url(public/img/girl-jwel.jpg);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+}
+.left-img div,.right-img div{
+   margin-top: 20rem; 
+}
+.part-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.casual-img{
+    display:grid;
+    grid-template-columns: 6fr 6fr;
+    column-gap: 1rem;
+    padding: 2rem 2rem 2rem 2rem;
+}
+.casual-img img{
+    height: 95vh;
+    width: 100%;
+}
+.casual-img-grid{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+.blazer{
+    background-image: url(public/img/w-jacket.jpg);
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t-shirt{
+    background-image: url(public/img/t-shirt.jpg);
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jwel{
+    background-image: url(public/img/heart-jwel.jpg);
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sunglass{
+    background-image: url(public/img/sunglass.jpg);
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+
+}
+.sunglass:hover{
+    background-image: url(public/img/sung.jpg);
+    transition: 1s;
+}
+.t-shirt:hover{
+    background-image: url(public/img/b-tshirt2.png);
+    transition: 1s;
+}
+.blazer:hover{
+    background-image: url(public/img/b-blazer.jpg);
+    transition: 1s;
+}
+.jwel:hover{
+    background-image: url(public/img/earing.jpg);
+    transition: 1s;
+}
+.part-2>div{
+    width: 100%;
+    padding: 3rem;
+}
+.blazer div,.sunglass div,.t-shirt div,.jwel div{
+    background-color: white;
+    width: 90%;
+    padding: 0.5rem;
+    text-align:start;
+    padding-left: 1rem;
+    margin-top: 10rem;
+   
+}
+.view-more a{
+    color: rgb(49, 48, 48);
+    padding: 5rem;
+}
+.part-3{
+    background-image: url("public/img/all-jwel.jpg");
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.part-3 div{
+    margin-left:10%;
+    background-color: white;
+    padding: 2rem;
+}
+.part-3 span{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(52, 49, 49);
+}
+.part-3 a{
+    color: rgb(33, 33, 33);
+}
+.part-4{
+  margin: 8%;
+ 
+}
+.trending-text{
+    display: flex;
+    justify-content: space-between;
+}
+.trending-text a {
+    color: rgb(57, 57, 57);
+}
+.trending{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.women-kurta{
+    background-image:url(public/img/short-kurta.jpg);
+    width: 100%;
+    background-size: cover;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.men-tshirt{
+    background-image:url(public/img/men-tshirt.jpg);
+    width: 100%;
+    background-size: cover;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.women-top{
+    background-image:url(public/img/women-top.jpg);
+    width: 100%;
+    background-size: cover;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trending>div div{
+    background-color: white;
+    width: 80%;
+    padding: 1rem;
+    margin-top: 90%;
+    margin-bottom: 15%;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+   
+    flex-wrap: wrap;
+
+}
+.footer-heading{
+    margin-top: 1.5rem;
+    margin-bottom: 0.6rem;
+    color: rgb(173, 173, 173);
+
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.search-bar{
+    border: 1px solid white;
+    display: flex;
+    width: 100%;
+}
+.search-bar input{
+    border: none;
+    background-color: transparent;
+    color: white;
+   
+    font-size: 18px;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+
+}
+.search-bar input:focus{
+    outline: none;
+}
+.search-bar button{
+    border: none;
+    background-color: transparent;
+    padding: 0.5rem;
+    color: white;
+    border-left: 1px solid white;
+}
+.search-bar button:hover{
+    background-color:white;
+    color: black;
+   
+}
+.icon {
+    margin-top: 1.5rem;
+}
+.icon span{
+    background-color: white;
+    color: black;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+}
+.copy{
+    background: rgb(41, 40, 40);
+    color: white;
+    padding: 0.6rem;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:700px){
+    .part-1{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .right-img,.left-img{
+        background-size: cover;
+        height: 40vh;
+    }
+    .left-img div,.right-img div{
+        margin-top: 10rem; 
+     }
+     .casual-img{
+        display:initial;
+    }
+    .casual-img img{
+        height: 55vh;
+        margin-bottom: 1rem;
+    }
+    .blazer,.t-shirt,.sunglass,.jwel{
+        height: 30vh;
+    }
+    .part-2>div{
+        padding:1rem;
+    }
+    .blazer div,.sunglass div,.t-shirt div,.jwel div{
+        margin-top: 6rem;
+    }
+    .part-3{
+        height: 70vh;
+    }
+    .trending-text{
+        margin-top: 20%;
+    }
+    .trending{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+@media (min-width:701px) and (max-width:950px){
+    .casual-img{
+      
+        display:initial;
+    }
+    .casual-img img{
+        height: 85vh;
+        margin-bottom: 1rem;
+    }
+    .trending{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
